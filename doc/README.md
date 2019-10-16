@@ -66,7 +66,7 @@ Related
 
 ▸ **getPrecision**(value: *`number`*): `number`
 
-*Defined in [get-precision.ts:17](https://github.com/strong-roots-capital/get-precision/blob/17b0f96/src/get-precision.ts#L17)*
+*Defined in [get-precision.ts:18](https://github.com/strong-roots-capital/get-precision/blob/bf83e3a/src/get-precision.ts#L18)*
 
 Count the number of digits to the right of a decimal.
 
