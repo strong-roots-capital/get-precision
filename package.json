@@ -1,6 +1,6 @@
 {
     "name": "@strong-roots-capital/get-precision",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Count the number of digits to the right of a decimal",
     "main": "dist/src/get-precision.js",
     "types": "dist/src/get-precision.d.ts",
