@@ -8,6 +8,7 @@ import test from 'ava'
 import getPrecision from '../src/get-precision'
 
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const countMantissa = (t: any, value: number, precision: number) => {
     t.is(precision, getPrecision(value))
 }

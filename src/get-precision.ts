@@ -5,6 +5,7 @@
 
 import { Maybe } from 'purify-ts/Maybe'
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const fromExponential = require('from-exponential')
 
 
