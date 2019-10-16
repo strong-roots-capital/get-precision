@@ -2,6 +2,11 @@
 
 > Count the number of digits to the right of a decimal
 
+This package exists to improve on its predecessors with
+
+- strong typing
+- support for scientific notation
+
 ## Install
 
 ```shell
@@ -12,13 +17,29 @@ npm install @strong-roots-capital/get-precision
 
 ```typescript
 import getPrecision from '@strong-roots-capital/get-precision'
-// TODO: describe usage
+
+console.log(getPrecision(0.5))
+//=>1
+
+console.log(getPrecision(0.05))
+//=>2
+
+console.log(getPrecision(0.00001))
+//=>5
+
+console.log(getPrecision(0.00000001))
+//=>8
+
+console.log(getPrecision(1.003530591958679e-10))
+//=>25
 ```
-
-## Related
-
-TODO
 
 ## Acknowledgments
 
-TODO
+- [from-exponential](https://github.com/shrpne/from-exponential)
+- [mathjs](https://github.com/josdejong/mathjs)
+- [fast-check](https://github.com/dubzzz/fast-check)
+
+## Related
+
+- [countDecimals](https://github.com/aleclarson/countDecimals)
