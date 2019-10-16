@@ -16,6 +16,7 @@ countMantissa.title = (_ = '', value: number, precision: number) =>
     `should accurately count mantissa of ${value} to be ${precision}`
 
 const tests: [number, number][] = [
+    [ 0, 0 ],
     [ 0.00000001, 8 ],
     [ 0.0000001, 7 ],
     [ 0.000005, 6],
